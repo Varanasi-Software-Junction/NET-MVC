@@ -15,7 +15,8 @@ namespace simplemvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            // return View();
+            return RedirectToAction("index", "Vsj");
         }
 
         public IActionResult Privacy()
